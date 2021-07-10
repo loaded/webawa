@@ -1,0 +1,354 @@
+* {
+margin:0;
+padding:0;
+}
+ .profile--main {
+   width:30%;
+   height:100%;
+   background-color:white;
+   margin-left:auto;
+   margin-right:auto;
+   position:relative;
+ }
+ .profile--header {
+   width:100%;
+   height:100px;
+   background-color:white;
+ }
+ .profile--image{
+   width:40px;
+   height:40px;
+   margin-top:20px;
+   cursor:pointer;
+ }
+ .profile--image-left{
+ float:left;
+}
+ .profile--image-right{
+ float:right;
+}
+ .profile--back{
+ width:20px;
+ height:20px;
+ margin-top:30px;
+ cursor:pointer;
+}
+ .profile--back-right{
+ float:left;
+}
+ .profile--back-left{
+ float:right;
+}
+.profile--info {
+  width:300px;
+  height:100px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:white;
+  margin-top:20px;
+  color:#3987c9;
+}
+
+.profile--info-name{
+  align:center;
+  padding:2px;
+  width:100%;
+  font-size:16px;
+  height:33px;
+  color:black;
+  font-weight:600;
+  font-style:italic;
+  box-sizing:border-box;
+  vertical-align:middle;
+}
+.profile--info-address{
+  align:center;
+  padding:2px;
+  font-size:14px;
+  width:100%;
+  height:33px;
+  box-sizing:border-box;
+  vertical-align:middle;
+  color:black;
+}
+.profile--info-link{
+  align:center;
+  padding:2px;
+  width:100%;
+  height:33px;
+  font-size:14px;
+  font-style:italic;
+  box-sizing:border-box;
+  vertical-align:middle;
+  color:black;
+  cursor:pointer;
+}
+
+
+
+.profile--info-nameI{
+  align:center;
+  padding:2px;
+  border:none;
+  width:100%;
+  font-size:16px;
+  height:30px;
+  color:black;
+  font-weight:600;
+  font-style:italic;
+  box-sizing:border-box;
+  vertical-align:middle;
+  color:darkgrey;
+}
+.profile--info-addressI{
+  align:center;
+  padding:2px;
+  border:none;
+  font-size:14px;
+  width:100%;
+  height:30px;
+  box-sizing:border-box;
+  vertical-align:middle;
+  color:darkgrey;
+}
+.profile--info-linkI{
+  align:center;
+  padding:2px;
+  width:100%;
+  border:none;
+  height:30px;
+  font-size:14px;
+  font-style:italic;
+  box-sizing:border-box;
+  vertical-align:middle;
+  color:darkgrey;
+  cursor:pointer;
+}
+
+
+
+.profile--info-link:hover{color:blue;}
+
+.profile--body {
+  width:300px;
+  height:400px;
+  
+
+  margin-right:auto;
+  margin-left:auto;
+ 
+}
+.profile--body-header{
+  width:100%;
+  height:30px;
+}
+.profile--hash{
+  margin-top:10px;
+  color:white;
+  align:center;
+  padding:3px;
+  float:left;
+  font-size:16px;
+  cursor:pointer;
+  color:blue;
+
+ }
+
+
+.profile--body-editHeader{
+ color:white;
+ cursor:pointer;
+ padding:3px;
+ background-color:grey; 
+ font-size:10px;
+ float:left;
+}
+
+.profile--body-hashHeader{
+  color:black;
+  font-size:10px;
+  float:left;
+  cursor:pointer;
+  padding:3px;
+  margin-left:10px;
+  color:white;
+  background-color:blue;
+}
+.profile--float-right {
+  float:right;
+}
+
+.profile--box-hash{
+  
+}
+
+.profile--box-input{
+ border:none;
+ border-left:2px solid red;
+ height:24px;
+ box-sizing:border-box;
+ padding:3px;
+ color:blue; 
+ width:80%; 
+}
+
+.profile--box-textarea{
+  margin-top:10px;
+  width:100%;
+  height:200px;
+  color:white;
+  padding:1px;
+  font-size:16px;
+  box-sizing:border-box;
+  background-color:darkgrey;
+}
+
+.profile--box-save{
+  color:white;
+  background-color:green;
+  padding:3px;
+  cursor:pointer;
+  float:right;
+  margin-top:20px;
+  font-size:12px;
+  width:50px;
+ text-align:center;
+}
+
+.profile--box-cancelI 
+{
+  color : black;
+  background-color:lightgrey;
+  padding:3px;
+  cursor:pointer;
+  margin-left:10px; 
+  float : right;
+  font-size:12px;
+  width:50px;
+  text-align:center;
+}
+
+
+.profile--box-saveI{
+  color:white;
+  background-color:green;
+  padding:3px;
+  cursor:pointer;
+  float:right; 
+  font-size:12px;
+  width:50px;
+ text-align:center;
+}
+
+.profile--box-cancel 
+{
+  color : black;
+  background-color:lightgrey;
+  padding:3px;
+  cursor:pointer;
+  margin-left:10px;
+  margin-top:20px;
+  float : right;
+  font-size:12px;
+  width:50px;
+  text-align:center;
+}
+
+
+.profile--right {
+  direction : rtl;
+}
+
+.profile--float-right{
+  float:right;
+}
+
+.profile--float-left{
+  float:left;
+}
+
+.profile--input-hashR {
+
+  float : right;
+  direction:rtl;
+  border : none;
+  border-right:2px solid red;
+}
+
+
+.profile--body {
+
+}
+
+.profile--body-location {
+  border:none;
+  border-bottom:1px solid black;
+  padding:3px;
+  color:black;
+  width:100%;
+ font-size:12px; 
+}
+
+.profile--body-password {
+ border:none;
+  border-bottom:1px solid black;
+  padding:3px;
+  color:black;
+  width:100%;
+
+  font-size:12px;
+
+}
+
+
+.profile--body-label{
+  width:100%;
+  font-size:14px;
+  padding:3px;
+
+  font-weight:italic;
+  color:black;
+
+ 
+}
+
+
+.profile--body-passContainer{
+
+}
+
+.profile--body-locContainer{
+  margin-top:30px;
+}
+
+.profile--search {
+
+ width:100%;
+ margin-top:20px;
+
+ padding:3px;
+
+}
+
+
+.profile--suggestion {
+  margin-top:20px;
+  width:100%;
+  height:50px;
+  background-color:#b7c1ea;
+}
+
+
+
+
+
+.profile--body-home {
+ width:100%;
+ margin-top:20px;
+ height:500px;
+}
+
+
+
+
+
